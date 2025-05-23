@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #2f2f34;
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+  }
+ 
+  .container-2 {
+    background: #ecebeb;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3.5px rgb(18, 17, 17);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+  .result {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .r-heading {
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .c-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+  }
+  label {
+    color: #343333;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    text-decoration: underline;
+  }
+  input,
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  input:focus {
+    border: 1px solid #1a5630;
+  }
+  .deg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .degree {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  option {
+    background-color: #D7D7D7;
+    color: #f6f6f6;
+  }
+  #convert-btn {
+    background: linear-gradient(to bottom, #135b28, #1f6d0f);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+  #convert-btn:hover {
+    background: linear-gradient(to bottom, #1b7638, #0f653a);
+    transition: all .5s;
+    transform: scale(1.03);
+ }
+  

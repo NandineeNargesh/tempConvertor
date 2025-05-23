@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tempreature Converter</title>
+    <link rel="stylesheet" href="tconvertor.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-2">
+            <h1> Tempreature Converter</h1>
+            
+            <div class="result">
+                <span class="r-heading">Result (Celsius)</span>
+                <h2 class="c-value" id="celsius"></h2>
+              </div>
+<div class="deg">
+            <div class="degree">
+                <label for="degree">Degrees</label>
+                <input type="number" name="degree" id="degree">
+            </div>
+            <div class="temp">
+                <label for="temp">Type</label>
+                <select name="Temperature" id="temp" autocomplete="on">
+                    <option value="kelvin" value="kelvin">Kelvin</option>
+                    <option value="fahrenheit" value="fahrenheit">Fahrenheit</option>
+                </select>
+            </div>
+            </div>
+            <button id="convert-btn"> Convert</button>
+        </div>
+    </div>
+    <script src="tconvertor.js">
+        
+    </script>
+</body>
+</html>
